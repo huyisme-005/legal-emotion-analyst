@@ -1,0 +1,50 @@
+# === Node.js / Next.js ===
+apps/frontend/node_modules/
+apps/frontend/.next/
+apps/frontend/out/
+apps/frontend/.env
+apps/frontend/.env.local
+apps/frontend/.env.development.local
+apps/frontend/.env.test.local
+apps/frontend/.env.production.local
+
+# === Python / Django ===
+apps/backend/__pycache__/
+apps/backend/**/*.pyc
+apps/backend/**/*.pyo
+apps/backend/**/*.pyd
+apps/backend/env/
+apps/backend/.env
+apps/backend/.venv/
+apps/backend/venv/
+apps/backend/db.sqlite3
+apps/backend/*.sqlite3
+
+# Django media/static (if used)
+apps/backend/media/
+apps/backend/staticfiles/
+
+# === VSCode / IDE ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === Docker ===
+**/.env
+**/.env.*
+docker-compose.override.yml
+
+# === Logs and Misc ===
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pip-log.txt
+
+# === Netlify ===
+.netlify/
