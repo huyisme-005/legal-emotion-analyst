@@ -12,5 +12,5 @@ COPY . .
 
 EXPOSE 8000
 
-# Run Django with Gunicorn
-CMD ["gunicorn", "--bind", "0.0.0.0:8000", "backend.wsgi"]
+# Start Django using uvicorn ASGI server
+CMD ["uvicorn", "backend.asgi:application", "--host", "0.0.0.0", "--port", "8000"]
