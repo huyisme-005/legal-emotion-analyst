@@ -55,4 +55,8 @@ netlify deploy --prod
 
 ## License
 
+## Several problems
+1. The frontend could record the audio, but still haven't been able to transcribe it.
+2. Backend deployment hasn't been done yet.
+
 MIT
