@@ -58,5 +58,6 @@ netlify deploy --prod
 ## Several problems
 1. The frontend could record the audio, but still haven't been able to transcribe it.
 2. Backend deployment hasn't been done yet.
+3. Whenever the backend is run, the error "GET /favicon.ico HTTP/1.1" 500 Internal Server Error always occurs.
 
 MIT
